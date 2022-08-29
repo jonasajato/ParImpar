@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ParImpar {
+    public static boolean ParImpar(int x){
+
+        if(x % 2 == 0){
+            return true;
+        }else{
+            return false;
+        }
+            }
+
+    public static void main(String[] args) {
+        System.out.println("Digite um numero para descobrir se ele eh PAR ou IMPAR: ");
+        Scanner entrada = new Scanner(System.in);
+        System.out.println(ParImpar(entrada.nextInt()));
+    }
+}
